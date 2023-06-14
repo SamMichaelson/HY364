@@ -1,0 +1,308 @@
+body{
+    overflow-x: hidden;
+    font-family:'Montserrat',sans-serif;
+    color: #ffffff;
+}
+
+/*============TOP BAR EADER=============*/
+.top-bar{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    color:white;
+    height:max-content;
+    font-size: 150%;
+    padding:0,5%;
+    padding-left: 9.5%;
+    padding-right:9.5% ;
+  }
+
+@media only screen and (max-width: 1200px) {
+    .Students{
+      font-size: 0%;
+    }
+    .Staff{
+      font-size: 0%;
+  }
+  .AZ{
+    font-size: 0%;
+}}
+
+/*=========2nd row============*/
+.logo{
+  position: center;
+}
+.top-searchbar{
+  font-size: 150%;padding-top: 3%;
+}
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 1s ease-in-out;
+}
+/* When the input field gets focus, change its width to 90% */
+input[type=text]:focus {
+  width: 90%;
+}
+.collaplse{
+  text-align: center;
+}
+
+  /*=========NAV BAR================*/
+ 
+  .threedash{
+      padding-left: 5%;
+      color: black;
+      width: 100%;
+      text-align: center;
+      font-size: medium;
+      position: relative;
+  }
+  @media only screen and (max-width: 1200px) {
+  .nav-item1{
+    background-color: rgba(0, 0, 0, 0.445);
+    right: 11% ;
+  }.nav-item2{
+    background-color: rgba(0, 0, 0, 0.445);
+    right: 11% ;
+  }.nav-item3{
+    background-color: rgba(0, 0, 0, 0.445);
+    right: 11% ;
+  }.nav-item4{
+    background-color: rgba(0, 0, 0, 0.445);
+    right: 11% ;
+  }.nav-item5{
+    background-color: rgba(0, 0, 0, 0.445);
+    padding-right: 11% ;
+  }.nav-item6{
+    background-color: rgba(0, 0, 0, 0.445);
+    padding-right: 11% ;
+  }.nav-item7{
+    background-color: rgba(0, 0, 0, 0.445);
+  }}
+  
+
+  @media only screen and (min-width: 1500px) {
+    .threedash{
+      background-color: #be0000;
+      color: white;
+      vertical-align: top;
+      height: fit-content;
+  }}
+
+  /*===========humongous image==========*/
+.big-image img{
+    width: 100%;
+    color: black;
+}
+.centered{
+    position: relative;
+    text-align: center;
+    object-fit: fill;
+    padding: 5px;
+    background-color: rgb(87, 87, 87);
+    font-size: 150%;
+}
+
+
+  /*============One Search==========*/
+.one-search{
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+.mid-searchbar input[type=text] {
+  border-radius: 10px;
+  padding-bottom: 5%;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 150%;
+  width: 100%;
+}
+
+/* Style the submit button */
+.Search-Button button {  
+  align-self:center;  
+  font-size: 16px;  
+  border-radius: 10px;
+  width: 100%;
+  padding:20px;
+  border: 1px solid #be0000;
+  background: #be0000;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  border-left-width: 10px; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.one-dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.one-dropdown .dropbtn {
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;  
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #beff0a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+  
+.dropdown-content a:hover {
+  background-color: rgb(0, 0, 0);
+}
+  
+.one-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*      Grid1        */
+.grid1{
+  background-color: rgba(12, 37, 12, 0.897);
+  color: #ffffff;
+  font-size: 1.8vw;
+  padding-left: 10%;
+  padding-right:10%;
+}
+@media only screen and (max-width: 1200px) {
+  .grid1{
+    white-space: nowrap ;
+    vertical-align: top;
+}}
+
+/*============ Library Servicies =======================*/
+.lib-serv{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.Faculty{
+    padding-bottom: 5%;
+}
+.Learn-Dev {
+  padding-bottom: 5%;
+}
+.Reasearch-Services{
+  padding-bottom: 5%;
+}
+.Learn{
+  padding-bottom: 5%;
+}
+.Resource-for-Teaching{
+  padding-bottom: 5%;
+}
+.txtbox1{
+  background-color: rgba(43, 42, 42, 0.411);
+  text-align:center;
+  font-size: 32px;
+  width: 100%;
+}
+.txtbox2{
+  background-color: rgba(43, 42, 42, 0.411);
+  text-align:center;
+  font-size: 30px;
+  width: 100%;
+}
+.txtbox3{
+  background-color: rgba(43, 42, 42, 0.411);
+  text-align:center;
+  font-size: 30px;
+  width: 100%;
+}
+.txtbox4{
+  background-color: rgba(43, 42, 42, 0.411);
+  text-align:center;
+  font-size: 30px;
+  width: 100%;
+}
+.txtbox5{
+  background-color: rgba(43, 42, 42, 0.411);
+  text-align:center;
+  font-size:30px;
+  width: 100%;
+}
+
+
+/*      Grid2        */
+.grid2 button{
+  background-color: rgba(12, 37, 12, 0.897);
+  color: #ffffff;
+  font-size: 1.8vw;
+  padding-left: 10%;
+  padding-right:10%;
+}
+@media only screen and (max-width: 800px) {
+  .grid2{
+    vertical-align: top;
+    display: inline-block;
+    text-align: below;
+}}
+
+/*=========== Humongous image 2==============*/
+.big-image2 {
+  position: relative;
+}
+.big-image-txt{
+  position: absolute;
+  width: auto;
+  bottom: 35%;
+  right: 5%;
+  font-size: 100%;
+  background-color: rgba(255, 255, 255, 0.493);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 1%;
+}
+.big-image-txt button{
+  background-color: #be0000;
+  color: #ffffff;
+}
+.centered2{
+  background-color:rgba(12, 37, 12, 0.897);
+  padding-left: 10%;
+  font-size: 1.8vw;
+}
+
+/*==============Image Carusel=================*/
+.container-carusel{
+  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align:center;
+}
+.more-news{
+  padding-left: 10%;
+  color: black;
+}
+/* ==============ending-bar======================*/
+
+.ending-bar{
+  background-color: rgb(85,85,85);
+  color: #ffffff;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+.filter {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
